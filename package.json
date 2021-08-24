@@ -1,0 +1,22 @@
+{
+  "name": "fisheye",
+  "version": "1.0.0",
+  "description": "\"Projet FishEye - Photography\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultOlm/ThibaultOulmiere_6_23082021.git"
+  },
+  "author": "Thibault Oulmiere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibaultOlm/ThibaultOulmiere_6_23082021/issues"
+  },
+  "homepage": "https://github.com/ThibaultOlm/ThibaultOulmiere_6_23082021#readme",
+  "dependencies": {
+    "sass": "^1.38.0"
+  }
+}

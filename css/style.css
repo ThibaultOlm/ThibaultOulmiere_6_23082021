@@ -12,4 +12,58 @@ body {
   font-weight: 400;
 }
 
+.header {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.header__help-nav {
+  position: absolute;
+  top: 6px;
+  left: 650px;
+  text-decoration: none;
+  padding: 3px 14px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+  font-size: 0.8em;
+  background-color: #D3573C;
+}
+.header__logo {
+  margin-right: 40px;
+}
+.header__navigation {
+  margin-top: 14px;
+}
+.header__navigation ul {
+  display: flex;
+  column-gap: 8px;
+  list-style-type: none;
+}
+.header__navigation a {
+  border-radius: 20px;
+  border: #C4C4C4 0.5px solid;
+  text-decoration: none;
+  color: #901C1C;
+  font-weight: 700;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 0.7em;
+}
+.header__navigation a:hover {
+  background-color: #901C1C;
+  color: #ffffff;
+}
+.header__navigation .sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 /*# sourceMappingURL=style.css.map */

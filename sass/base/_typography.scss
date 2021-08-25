@@ -9,9 +9,36 @@ body {
     h1 {
         text-align: right;
         font-weight: 300;
+        font-size: 1.6em;
         color: $color-primary;
         margin-right: 10%;
         margin-top: -3.1%;
         margin-bottom: 4%;
+    }
+    &__photographer__profile {
+        a {
+            text-decoration: none;
+        }
+        h2 {
+            font-weight: 300;
+            font-size: 2.3em;
+            color: $color-secondary;
+            margin-top: 3%;
+        }
+        h3 {
+            font-weight: 300;
+            font-size: 0.85em;
+            margin: 1%;
+            color: $color-primary;
+        }
+        p {
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        h4 {
+            font-weight: 300;
+            font-size: 0.7em;
+            margin: 1%;
+        }
     }
 }

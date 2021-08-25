@@ -4,3 +4,14 @@ body {
     font-family: 'DM Sans', Arial, sans-serif;
     font-weight: 400;
   }
+
+.content {
+    h1 {
+        text-align: right;
+        font-weight: 300;
+        color: $color-primary;
+        margin-right: 10%;
+        margin-top: -3.1%;
+        margin-bottom: 4%;
+    }
+}

@@ -46,6 +46,22 @@ body {
   margin: 1%;
 }
 
+.content-photographer h2 {
+  font-size: 2.6em;
+  font-weight: 300;
+  color: #D3573C;
+}
+.content-photographer h3 {
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #901C1C;
+  margin: 4% 0%;
+}
+.content-photographer p {
+  font-size: 0.8em;
+  margin: 4% 0%;
+}
+
 .header {
   width: 75%;
   display: flex;
@@ -100,6 +116,12 @@ body {
   width: 1px;
 }
 
+.header-photographer {
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 3.5%;
+}
+
 .content__photographer {
   display: flex;
   flex-wrap: wrap;
@@ -147,6 +169,69 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.content-photographer {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.content-photographer__header {
+  display: flex;
+  justify-content: space-between;
+}
+.content-photographer__header__profile {
+  margin-left: 3%;
+}
+.content-photographer__header__profile__tag ul {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 3%;
+}
+.content-photographer__header__profile__tag ul a {
+  border-radius: 20px;
+  border: #C4C4C4 0.5px solid;
+  text-decoration: none;
+  color: #901C1C;
+  font-weight: 700;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 0.7em;
+  font-size: 0.7em;
+}
+.content-photographer__header__profile__tag ul a:hover {
+  background-color: #901C1C;
+  color: #ffffff;
+}
+.content-photographer__header__profile__tag ul .sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.content-photographer__header__contact {
+  margin-left: -40%;
+  margin-top: 1%;
+}
+.content-photographer__header__contact a {
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #901C1C;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 16px 14px;
+  font-size: 0.8em;
+}
+.content-photographer__header__photo img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  clip-path: ellipse(50% 50%);
 }
 
 /*# sourceMappingURL=style.css.map */

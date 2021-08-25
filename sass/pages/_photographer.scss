@@ -1,0 +1,40 @@
+.content-photographer {
+    margin-left: 4%;
+    margin-right: 4%;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        &__profile {
+            margin-left: 3%;
+            &__tag ul {
+                display: flex;
+                column-gap: 5px;
+                justify-content: center;
+                list-style-type: none;
+                margin-top: 3%;
+                a {
+                    @include button-tag-white;
+                    font-size: 0.7em;
+                }
+                .sr-only {
+                    @include sr-only;
+                }
+            }
+        }
+        &__contact {
+            margin-left: -40%;
+            margin-top: 1%;
+            a {
+                @include button-static
+            }
+        }
+        &__photo {
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                clip-path: ellipse(50% 50%);
+            }
+        }
+    }
+}

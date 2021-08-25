@@ -12,3 +12,13 @@
         color: $color-white;
     }
 }
+
+@mixin button-static {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: 500;
+    padding: 16px 14px;
+    font-size: 0.8em;
+}

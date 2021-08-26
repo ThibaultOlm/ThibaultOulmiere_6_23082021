@@ -7,6 +7,9 @@
     &__profile {
         flex: 33%;
         text-align: center;
+        @include mobile-l-only {
+            flex: 100%;
+        }
         img {
             width: 150px;
             height: 150px;

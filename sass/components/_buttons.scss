@@ -11,6 +11,9 @@
         background-color: $color-primary;
         color: $color-white;
     }
+    @include mobile-l-only {
+        padding: 2px 5px;
+    }
 }
 
 @mixin button-static {

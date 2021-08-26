@@ -37,4 +37,23 @@
             }
         }
     }
+    &__like {
+        display: flex;
+        justify-content: space-between;
+        background-color: $color-secondary;
+        border-radius: 5px;
+        width: 20%;
+        padding: 0% 1.5%;
+        position: fixed;
+        bottom: 0px;
+        right: 60px;
+        p {
+            font-size: 1em;
+            font-weight: 500;
+        }
+        img {
+            width: 20px;
+            margin-left: -25%;
+        }
+    }
 }

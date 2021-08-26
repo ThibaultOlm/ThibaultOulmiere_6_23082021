@@ -24,4 +24,17 @@
     font-weight: 500;
     padding: 16px 14px;
     font-size: 0.8em;
+    @include mobile-l-only {
+        padding: 8px 18px ;
+        position: fixed;
+        z-index: 1;
+        bottom: 4%;
+        left: 35%;
+    }
+    @include mobile-m-only {
+        left: 32%;
+    }
+    @include mobile-s-only {
+        left: 30%;
+    }
 }

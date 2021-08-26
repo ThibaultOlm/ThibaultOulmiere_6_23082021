@@ -11,6 +11,7 @@
             width: 150px;
             height: 150px;
             object-fit: cover;
+            object-position: top;
             clip-path: ellipse(50% 50%);
         }
         &__tag ul {

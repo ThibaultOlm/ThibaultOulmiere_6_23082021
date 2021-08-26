@@ -6,9 +6,10 @@
     justify-content: space-evenly;
     margin-top: 40px;
     &__help-nav {
-        position: absolute;
-        top: 6px;
-        left: 650px;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: 45%;
         text-decoration: none;
         padding: 3px 14px;
         border-radius: 5px;

@@ -77,9 +77,10 @@ body {
   margin-top: 40px;
 }
 .header__help-nav {
-  position: absolute;
-  top: 6px;
-  left: 650px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 45%;
   text-decoration: none;
   padding: 3px 14px;
   border-radius: 5px;
@@ -145,6 +146,7 @@ body {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  object-position: top;
   clip-path: ellipse(50% 50%);
 }
 .content__photographer__profile__tag ul {

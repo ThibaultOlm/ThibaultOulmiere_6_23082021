@@ -61,6 +61,9 @@ body {
   font-size: 0.8em;
   margin: 4% 0%;
 }
+.content-photographer h4 {
+  font-size: 0.9em;
+}
 
 .header {
   width: 75%;
@@ -178,6 +181,7 @@ body {
 .content-photographer__header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3%;
 }
 .content-photographer__header__profile {
   margin-left: 3%;
@@ -251,6 +255,19 @@ body {
 .content-photographer__like img {
   width: 20px;
   margin-left: -25%;
+}
+.content-photographer__work__header {
+  display: flex;
+  column-gap: 1%;
+  margin-bottom: 3%;
+}
+.content-photographer__work__header select {
+  background-color: #901C1C;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 12px 16px 12px 24px;
+  text-align: left;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

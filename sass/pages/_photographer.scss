@@ -4,6 +4,7 @@
     &__header {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 3%;
         &__profile {
             margin-left: 3%;
             &__tag ul {
@@ -54,6 +55,21 @@
         img {
             width: 20px;
             margin-left: -25%;
+        }
+    }
+    &__work {
+        &__header {
+            display: flex;
+            column-gap: 1%;
+            margin-bottom: 3%;
+            select {
+                background-color: $color-primary;
+                color: $color-white;
+                font-weight: 500;
+                padding: 12px 16px 12px 24px;
+                text-align: left;
+                border-radius: 5px;
+            }
         }
     }
 }

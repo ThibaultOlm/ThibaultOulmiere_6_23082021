@@ -1,6 +1,15 @@
 @charset "UTF-8";
-/* Eléments principaux de la page */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@keyframes modalopen {
+  from {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Eléments principaux de la page */
 * {
   margin: 0;
   padding: 0;
@@ -98,6 +107,17 @@ body {
   font-size: 1.1em;
   font-weight: 300;
   color: #901C1C;
+}
+
+.modal-contact__content h1 {
+  font-weight: 300;
+  font-size: 2.3em;
+}
+.modal-contact__content h2 {
+  font-weight: 300;
+  font-size: 2.3em;
+  margin-bottom: 4%;
+  color: #000000;
 }
 
 .header {
@@ -214,6 +234,90 @@ body {
 @media all and (max-width: 426px) {
   .header-photographer {
     margin-left: 17%;
+  }
+}
+
+.modal-contact {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(196, 196, 196, 0.4);
+}
+.modal-contact__content {
+  margin: 5% auto;
+  width: 100%;
+  max-width: 450px;
+  animation-name: modalopen;
+  animation-duration: 300;
+  background: #D3573C;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  color: #000000;
+}
+.modal-contact__content__body {
+  padding: 3%;
+  margin: 10px auto;
+}
+
+.formData label {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+.formData input {
+  border: 0.8px solid rgba(196, 196, 196, 0.4);
+  border-radius: 5px;
+  outline: none;
+}
+.formData input:hover {
+  border: 0.8px solid #901C1C;
+}
+
+#message {
+  height: 80px;
+}
+
+.text-control {
+  margin: 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 20px;
+  height: 48px;
+}
+
+.btn-submit {
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #901C1C;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 16px 14px;
+  font-size: 0.8em;
+  margin-top: 2%;
+}
+@media all and (max-width: 426px) {
+  .btn-submit {
+    padding: 8px 18px;
+    position: fixed;
+    z-index: 1;
+    bottom: 4%;
+    left: 35%;
+  }
+}
+@media all and (max-width: 376px) {
+  .btn-submit {
+    left: 32%;
+  }
+}
+@media all and (max-width: 320px) {
+  .btn-submit {
+    left: 30%;
   }
 }
 
